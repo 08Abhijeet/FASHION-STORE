@@ -14,10 +14,7 @@ const About = () => {
         />
         <div className="flex flex-col justify-center gap-6 md:w-2/4 text-red-950">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-            dignissimos dolor iste repellendus amet eligendi, cupiditate
-            suscipit quis sed nam, non laudantium debitis commodi illo
-            doloribus, tempora nisi voluptate ipsam!
+          
           </p>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam,
