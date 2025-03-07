@@ -54,7 +54,7 @@ import p_img50 from './p_img50.png'
 import p_img51 from './p_img51.png'
 import p_img52 from './p_img52.png'
 
-import herosection from "./herosection.jpg"
+import gogo from "./gogo.webp"
 import logo from './logo.png'
 import hero from './hero.png'
 import cart_icon from './cart_icon.png'
@@ -94,7 +94,7 @@ export const assets = {
     razorpay_logo,
     stripe_logo,
     cross_icon,
-    herosection
+    gogo
 }
 
 export const products = [

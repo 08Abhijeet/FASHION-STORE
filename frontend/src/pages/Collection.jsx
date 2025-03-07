@@ -72,12 +72,12 @@ const Collection = () => {
     sortProduct();
   }, [sortType]);
   return (
-    <div className="flex flex-col text-white sm:flex-row gap-1 sm:gap-10 pt-10 border-t">
+    <div className="flex flex-col text-red-950 sm:flex-row gap-1 sm:gap-10 pt-10 border-red-950">
       {/* filter options */}
       <div className="min-w-60">
         <p
           onClick={() => setShowFilter(!showFilter)}
-          className="my-2 text-xl text-white flex items-center cursor-pointer gap-2"
+          className="my-2 text-xl text-red-950 flex items-center cursor-pointer gap-2"
         >
           FILTERS
           {/* dropdown svg */}
@@ -94,12 +94,12 @@ const Collection = () => {
         </p>
         {/* category filter */}
         <div
-          className={`border border-slate-50 pl-5 py-3 mt-6 ${
+          className={`border border-red-950 pl-5 py-3 mt-6 ${
             showFilter ? "" : "hidden"
           } sm:block`}
         >
           <p className="mb-3 text-sm font-medium">CATEGORIES</p>
-          <div className="flex flex-col gap-2 text-sm font-light text-slate-50">
+          <div className="flex flex-col gap-2 text-sm font-light text-red-950">
             <p className="flex gap-2">
               <input
                 className="w-3"

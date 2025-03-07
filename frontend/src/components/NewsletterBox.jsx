@@ -9,8 +9,7 @@ const NewsletterBox = () => {
         Subscribe now & get 20% off
       </p>
       <p className="text-red-950 mt-3">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. In saepe ab
-        velit assumenda ipsam sed dicta fugiat deleniti
+      **"Subscribe now and enjoy an exclusive 20% off on your first purchase! Stay updated with the latest trends, special deals, and new arrivals. Sign up today and elevate your shopping experience!"**
       </p>
       <form className="w-full sm:w-1/2 flex items-center gap-3 mx-auto my-6 border pl-3">
         <input
